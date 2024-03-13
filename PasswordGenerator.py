@@ -30,3 +30,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+import getpass
+
+password = getpass.getpass(prompt="Enter your password: ")
+
+# Now 'password' contains the inputted password without showing it on the screen
+print("Password entered successfully!")
